@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Pyramid chart</title>
+
+    <style>
+        div#divi button {
+            width: 70px;
+            display: inline;
+            margin-top: 3%;
+        }
+    </style>
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/funnel.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <style type="text/css">
+        ${demo.css}
+    </style>
+
+    <script type="application/javascript" src="../../js/getCategory.js"></script>
+    <script type="application/javascript" src="../../js/myPyramidChart.js"></script>
+    <script type="application/javascript" src="../../js/myPyramidChart.js"></script>
+    <script type="application/javascript" src="../../js/getPyramidChart.js"></script>
+
+
+    <script type="text/javascript">
+        $(function () {
+            var years = JSON.parse(localStorage.getItem("years"));
+
+            $.each(years, function (key, value) {
+                var htmlTxt = '<button type="button" class="list-group-item list-group-item-action';
+/*
+                if(value=="2011")
+                    htmlTxt += ' active';*/
+
+
+                htmlTxt += '" value="'+value+'"' +
+                        ' onclick="myVal(this.value, \'Pyramid\', \'\')" id="'+value+'"';
+
+                htmlTxt += '>'+value+'</button>';
+
+
+                $('#divi').append(htmlTxt);
+            });
+
+            $('#divi button#2011').trigger('click');
+        });
+    </script>
+</head>
+<body>
+<!--<select id="years" onchange='myVal(this.value, "Pyramid");'>
+</select>-->
+<div class="content" style="margin-left: 135px; width: 50%; margin-top: 10px;">
+    <p align="center"><b>Shpjegim:</b> Ne kete grafe eshte bere paraqitja ne forme piramidale e 10 - produkteve (dallohen me ngjyra te ndryshme) dhe perqindja e tyre e konsumit. Renditja e kategorive eshte bere prej pernqidjes me te madhe te konsumit (pjesa e poshtme) deri tek perqidnja me e vogel e konsumit (pjesa e siperme).</p>
+</div>
+<div>
+    <div class="container" width="20" style="display: inline-block;">
+        <div class="list-group" id="divi" width="20" style="margin-left: 340px;">
+
+        </div>
+    </div>
+    <div id="container" style="width: 70%; height: 700px; margin: 0 auto; display: inline-block; align-self: center"></div>
+</div>
+</body>
+</html>

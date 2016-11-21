@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Dual chart</title>
+
+		<style>
+			div#divi button {
+				width: 90px;
+				display: inline;
+				height: 100px;
+				margin-top: 2%;
+				word-break: normal;
+				background-color: whitesmoke;
+			}
+
+			span#titull {
+				width: 50px;
+				word-wrap: break-word;
+			}
+
+			h4 {
+				color: #101010;
+			}
+		</style>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<style type="text/css">
+		${demo.css}
+		</style>
+		<script type="application/javascript" src="../../js/getYears.js"></script>
+		<script type="application/javascript" src="../../js/getCategories.js"></script>
+		<script type="application/javascript" src="../../js/getData.js"></script>
+		<script type="application/javascript" src="../../js/getDualChart.js"></script>
+		<script type="application/javascript" src="../../js/getCategory.js"></script>
+		<script type="text/javascript">
+			$(function () {
+
+				var categories = JSON.parse(localStorage.getItem("categories"));
+				$.each(categories, function (key, value) {
+				/*	$('#divi').append($('<option>', {
+						value: value.id,
+						text: value.name
+					}));*/
+					var htmlTxt = '<button type="button" class="list-group-item list-group-item-action';
+					/*
+					 if(value=="2011")
+					 htmlTxt += ' active';*/
+
+
+					htmlTxt += '" value="'+value.id+'"' +
+							' onclick="myVal(this, \'Dual\', this.id)" id="'+value.name+'"';
+
+					htmlTxt += '>'+value.name+'</button>';
+
+
+					$('#divi').append(htmlTxt);
+				});
+
+				$('#divi button#Mishi').trigger('click');
+			});
+		</script>
+	</head>
+	<body>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/data.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<!--<select id="category" class="selectpicker" onchange='myVal(this, "Dual");'>
+</select>-->
+<div class="content" style="margin-left: 135px; width: 50%; margin-top: 10px;">
+	<p align="center"><b>Shpjegim:</b> Ne kete graf eshte bere paraqitja e perqindjes se konsumit dhe qmimet mesatare te kategorive te ndryshme, ne kater vite, 2011-2014. Qellimi i ketij grafi eshte te behet krahasimi i perqindjes se konsumit dhe qmimit mesatar per nje kategori te caktuar</p>
+</div>
+<div>
+	<div class="container" width="20" style="display: inline-block; float: left;">
+		<!--<h4>Zgjedhni njërën nga kategoritë</h4>-->
+		<div class="list-group" id="divi" width="20">
+
+		</div>
+	</div>
+
+	<div id="container" style="width: 80%; height: 700px; margin: 0 auto; margin-top: 40px;">
+	</div>
+</div>
+	</body>
+</html>
