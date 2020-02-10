@@ -1,1 +1,322 @@
-{"Buka dhe drith\u00ebrat":[{"id":"drithera","viti":"2011","perqindja":"21","mesatarja":1.65},{"id":"drithera","viti":"2012","perqindja":"19","mesatarja":1.69},{"id":"drithera","viti":"2013","perqindja":"19","mesatarja":1.74},{"id":"drithera","viti":"2014","perqindja":"18","mesatarja":1.77},{"id":"drithera","viti":"2015","perqindja":"17","mesatarja":0}],"Mishi":[{"id":"mishi","viti":"2011","perqindja":"19","mesatarja":4.3},{"id":"mishi","viti":"2012","perqindja":"20","mesatarja":4.45},{"id":"mishi","viti":"2013","perqindja":"19","mesatarja":4.63},{"id":"mishi","viti":"2014","perqindja":"20","mesatarja":4.67},{"id":"mishi","viti":"2015","perqindja":"20","mesatarja":0}],"Peshku":[{"id":"peshku","viti":"2011","perqindja":"1","mesatarja":2.57},{"id":"peshku","viti":"2012","perqindja":"1","mesatarja":2.64},{"id":"peshku","viti":"2013","perqindja":"2","mesatarja":2.64},{"id":"peshku","viti":"2014","perqindja":"1","mesatarja":2.66},{"id":"peshku","viti":"2015","perqindja":"1","mesatarja":0}],"Qumshti, djathi, vez\u00ebt":[{"id":"bylmeti","viti":"2011","perqindja":"18","mesatarja":2},{"id":"bylmeti","viti":"2012","perqindja":"16","mesatarja":2.09},{"id":"bylmeti","viti":"2013","perqindja":"16","mesatarja":2.09},{"id":"bylmeti","viti":"2014","perqindja":"17","mesatarja":2.05},{"id":"bylmeti","viti":"2015","perqindja":"18","mesatarja":0}],"Vajrat dhe yndyrat":[{"id":"vajrat","viti":"2011","perqindja":"5","mesatarja":1.47},{"id":"vajrat","viti":"2012","perqindja":"4","mesatarja":1.47},{"id":"vajrat","viti":"2013","perqindja":"4","mesatarja":1.48},{"id":"vajrat","viti":"2014","perqindja":"3","mesatarja":1.3},{"id":"vajrat","viti":"2015","perqindja":"3","mesatarja":0}],"Frutat":[{"id":"frutat","viti":"2011","perqindja":"6","mesatarja":1.19},{"id":"frutat","viti":"2012","perqindja":"7","mesatarja":1.21},{"id":"frutat","viti":"2013","perqindja":"7","mesatarja":1.26},{"id":"frutat","viti":"2014","perqindja":"8","mesatarja":1.2},{"id":"frutat","viti":"2015","perqindja":"8","mesatarja":0}],"Perimet":[{"id":"perimet","viti":"2011","perqindja":"11","mesatarja":1.14},{"id":"perimet","viti":"2012","perqindja":"11","mesatarja":1.1},{"id":"perimet","viti":"2013","perqindja":"12","mesatarja":1.12},{"id":"perimet","viti":"2014","perqindja":"12","mesatarja":1.12},{"id":"perimet","viti":"2015","perqindja":"12","mesatarja":0}],"Sheqeri dhe \u00ebmb\u00eblsirat":[{"id":"embelsirat","viti":"2011","perqindja":"6","mesatarja":2.46},{"id":"embelsirat","viti":"2012","perqindja":"7","mesatarja":2.59},{"id":"embelsirat","viti":"2013","perqindja":"6","mesatarja":2.71},{"id":"embelsirat","viti":"2014","perqindja":"6","mesatarja":2.71},{"id":"embelsirat","viti":"2015","perqindja":"6","mesatarja":0}],"Produkte tjera ushqimore":[{"id":"tjera","viti":"2011","perqindja":"5","mesatarja":3.04},{"id":"tjera","viti":"2012","perqindja":"5","mesatarja":3.17},{"id":"tjera","viti":"2013","perqindja":"5","mesatarja":3.3},{"id":"tjera","viti":"2014","perqindja":"5","mesatarja":3.32},{"id":"tjera","viti":"2015","perqindja":"5","mesatarja":0}],"Pijet joalkoolike":[{"id":"pijet","viti":"2011","perqindja":"8","mesatarja":0.92},{"id":"pijet","viti":"2012","perqindja":"10","mesatarja":0.92},{"id":"pijet","viti":"2013","perqindja":"10","mesatarja":0.91},{"id":"pijet","viti":"2014","perqindja":"10","mesatarja":0.89},{"id":"pijet","viti":"2015","perqindja":"10","mesatarja":0}]}
+{
+    "Buka dhe drith\u00ebrat": [
+        {
+            "id": "drithera",
+            "viti": "2011",
+            "perqindja": "21",
+            "mesatarja": 1.65
+        },
+        {
+            "id": "drithera",
+            "viti": "2012",
+            "perqindja": "19",
+            "mesatarja": 1.69
+        },
+        {
+            "id": "drithera",
+            "viti": "2013",
+            "perqindja": "19",
+            "mesatarja": 1.74
+        },
+        {
+            "id": "drithera",
+            "viti": "2014",
+            "perqindja": "18",
+            "mesatarja": 1.77
+        },
+        {
+            "id": "drithera",
+            "viti": "2015",
+            "perqindja": "17",
+            "mesatarja": 0
+        }
+    ],
+    "Mishi": [
+        {
+            "id": "mishi",
+            "viti": "2011",
+            "perqindja": "19",
+            "mesatarja": 4.3
+        },
+        {
+            "id": "mishi",
+            "viti": "2012",
+            "perqindja": "20",
+            "mesatarja": 4.45
+        },
+        {
+            "id": "mishi",
+            "viti": "2013",
+            "perqindja": "19",
+            "mesatarja": 4.63
+        },
+        {
+            "id": "mishi",
+            "viti": "2014",
+            "perqindja": "20",
+            "mesatarja": 4.67
+        },
+        {
+            "id": "mishi",
+            "viti": "2015",
+            "perqindja": "20",
+            "mesatarja": 0
+        }
+    ],
+    "Peshku": [
+        {
+            "id": "peshku",
+            "viti": "2011",
+            "perqindja": "1",
+            "mesatarja": 2.57
+        },
+        {
+            "id": "peshku",
+            "viti": "2012",
+            "perqindja": "1",
+            "mesatarja": 2.64
+        },
+        {
+            "id": "peshku",
+            "viti": "2013",
+            "perqindja": "2",
+            "mesatarja": 2.64
+        },
+        {
+            "id": "peshku",
+            "viti": "2014",
+            "perqindja": "1",
+            "mesatarja": 2.66
+        },
+        {
+            "id": "peshku",
+            "viti": "2015",
+            "perqindja": "1",
+            "mesatarja": 0
+        }
+    ],
+    "Qumshti, djathi, vez\u00ebt": [
+        {
+            "id": "bylmeti",
+            "viti": "2011",
+            "perqindja": "18",
+            "mesatarja": 2
+        },
+        {
+            "id": "bylmeti",
+            "viti": "2012",
+            "perqindja": "16",
+            "mesatarja": 2.09
+        },
+        {
+            "id": "bylmeti",
+            "viti": "2013",
+            "perqindja": "16",
+            "mesatarja": 2.09
+        },
+        {
+            "id": "bylmeti",
+            "viti": "2014",
+            "perqindja": "17",
+            "mesatarja": 2.05
+        },
+        {
+            "id": "bylmeti",
+            "viti": "2015",
+            "perqindja": "18",
+            "mesatarja": 0
+        }
+    ],
+    "Vajrat dhe yndyrat": [
+        {
+            "id": "vajrat",
+            "viti": "2011",
+            "perqindja": "5",
+            "mesatarja": 1.47
+        },
+        {
+            "id": "vajrat",
+            "viti": "2012",
+            "perqindja": "4",
+            "mesatarja": 1.47
+        },
+        {
+            "id": "vajrat",
+            "viti": "2013",
+            "perqindja": "4",
+            "mesatarja": 1.48
+        },
+        {
+            "id": "vajrat",
+            "viti": "2014",
+            "perqindja": "3",
+            "mesatarja": 1.3
+        },
+        {
+            "id": "vajrat",
+            "viti": "2015",
+            "perqindja": "3",
+            "mesatarja": 0
+        }
+    ],
+    "Frutat": [
+        {
+            "id": "frutat",
+            "viti": "2011",
+            "perqindja": "6",
+            "mesatarja": 1.19
+        },
+        {
+            "id": "frutat",
+            "viti": "2012",
+            "perqindja": "7",
+            "mesatarja": 1.21
+        },
+        {
+            "id": "frutat",
+            "viti": "2013",
+            "perqindja": "7",
+            "mesatarja": 1.26
+        },
+        {
+            "id": "frutat",
+            "viti": "2014",
+            "perqindja": "8",
+            "mesatarja": 1.2
+        },
+        {
+            "id": "frutat",
+            "viti": "2015",
+            "perqindja": "8",
+            "mesatarja": 0
+        }
+    ],
+    "Perimet": [
+        {
+            "id": "perimet",
+            "viti": "2011",
+            "perqindja": "11",
+            "mesatarja": 1.14
+        },
+        {
+            "id": "perimet",
+            "viti": "2012",
+            "perqindja": "11",
+            "mesatarja": 1.1
+        },
+        {
+            "id": "perimet",
+            "viti": "2013",
+            "perqindja": "12",
+            "mesatarja": 1.12
+        },
+        {
+            "id": "perimet",
+            "viti": "2014",
+            "perqindja": "12",
+            "mesatarja": 1.12
+        },
+        {
+            "id": "perimet",
+            "viti": "2015",
+            "perqindja": "12",
+            "mesatarja": 0
+        }
+    ],
+    "Sheqeri dhe \u00ebmb\u00eblsirat": [
+        {
+            "id": "embelsirat",
+            "viti": "2011",
+            "perqindja": "6",
+            "mesatarja": 2.46
+        },
+        {
+            "id": "embelsirat",
+            "viti": "2012",
+            "perqindja": "7",
+            "mesatarja": 2.59
+        },
+        {
+            "id": "embelsirat",
+            "viti": "2013",
+            "perqindja": "6",
+            "mesatarja": 2.71
+        },
+        {
+            "id": "embelsirat",
+            "viti": "2014",
+            "perqindja": "6",
+            "mesatarja": 2.71
+        },
+        {
+            "id": "embelsirat",
+            "viti": "2015",
+            "perqindja": "6",
+            "mesatarja": 0
+        }
+    ],
+    "Produkte tjera ushqimore": [
+        {
+            "id": "tjera",
+            "viti": "2011",
+            "perqindja": "5",
+            "mesatarja": 3.04
+        },
+        {
+            "id": "tjera",
+            "viti": "2012",
+            "perqindja": "5",
+            "mesatarja": 3.17
+        },
+        {
+            "id": "tjera",
+            "viti": "2013",
+            "perqindja": "5",
+            "mesatarja": 3.3
+        },
+        {
+            "id": "tjera",
+            "viti": "2014",
+            "perqindja": "5",
+            "mesatarja": 3.32
+        },
+        {
+            "id": "tjera",
+            "viti": "2015",
+            "perqindja": "5",
+            "mesatarja": 0
+        }
+    ],
+    "Pijet joalkoolike": [
+        {
+            "id": "pijet",
+            "viti": "2011",
+            "perqindja": "8",
+            "mesatarja": 0.92
+        },
+        {
+            "id": "pijet",
+            "viti": "2012",
+            "perqindja": "10",
+            "mesatarja": 0.92
+        },
+        {
+            "id": "pijet",
+            "viti": "2013",
+            "perqindja": "10",
+            "mesatarja": 0.91
+        },
+        {
+            "id": "pijet",
+            "viti": "2014",
+            "perqindja": "10",
+            "mesatarja": 0.89
+        },
+        {
+            "id": "pijet",
+            "viti": "2015",
+            "perqindja": "10",
+            "mesatarja": 0
+        }
+    ]
+}

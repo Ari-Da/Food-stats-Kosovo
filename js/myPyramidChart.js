@@ -4,12 +4,10 @@
 function getPyramidChart(year, percentages) {
     var chart = Highcharts.chart('container', {
         chart: {
-            type: 'pyramid',
-            marginRight: 100
+            type: 'pyramid'
         },
         title: {
-            text: 'Consume distribution for year ' + year,
-            x: -50
+            text: ''
         },
         plotOptions: {
             series: {
